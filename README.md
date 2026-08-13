@@ -2,7 +2,7 @@
 
 A small REST service that retrieves current weather from [Visual Crossing Weather](https://www.visualcrossing.com/weather-api), normalizes the response, caches it in Redis, and protects the endpoint with rate limiting.
 
-This project was built from the [roadmap.sh Weather API project](https://roadmap.sh/projects/weather-api-wrapper-service). It demonstrates third-party API integration, environment-based configuration, caching, error handling, and abuse protection.
+It demonstrates third-party API integration, environment-based configuration, caching, error handling, and abuse protection.
 
 ## Features
 
@@ -25,7 +25,7 @@ This project was built from the [roadmap.sh Weather API project](https://roadmap
 ### Run locally
 
 ```bash
-git clone https://github.com/<your-username>/weather-api-wrapper.git
+git clone https://github.com/GrDanyl/weather-api-wrapper.git
 cd weather-api-wrapper
 npm install
 copy .env.example .env
